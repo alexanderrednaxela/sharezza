@@ -1,0 +1,111 @@
+body {
+    background-color: papayawhip;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.mainWrapper {
+    width: 80%;
+    margin: auto;
+}
+
+ul.navBar {
+    display: flex;
+    list-style: none;
+    margin: 24px 0px;
+    padding: 0;
+}
+
+li {
+    margin-right: 16px;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: dimgray;
+}
+
+li a:hover {
+    color: hotpink;
+    text-decoration: underline;
+}
+
+form {
+    margin: 16px 0px 16px 0px;
+    float: left;
+    width: 100%;
+}
+
+.searchField {
+    background-color: papayawhip;
+    border: none;
+    padding: 0px 0px 12px 0px;
+    margin-right: 16px;
+    height: 48px;
+    width: 256px;
+    border-bottom: 1px solid slateblue;
+    font-family: 'Rakkas', cursive;
+    font-size: 48px;
+    color: slateblue;
+}
+
+.searchField:focus{
+    outline: 0;
+}
+
+.searchButton {
+    border: 1px solid slateblue;
+    padding: 12px;
+    height: 60px;
+    width: 120px;
+    border-radius: 6px;
+    background-color: papayawhip;
+    font-weight: 700;
+    font-size: 20px;
+    color: slateblue;
+}
+
+.searchButton:focus {
+    outline: 0;
+}
+
+.contentWrapper {
+    width: 100%;
+    margin: auto;
+}
+
+h1.title {
+    font-family: 'Rakkas', cursive;
+    font-size: 96px;
+    line-height: 102px;
+    font-weight: 200;
+    margin: 48px 0px;
+    float: left;
+    width: 100%;
+}
+
+.title span {
+   color: slateblue;
+   font-family: 'Rakkas', cursive;
+}
+
+.currentWeather {
+    margin: 16px 0px 32px 0px;
+    float: left;
+    width: 100%;
+}
+
+.weatherInfo {
+    font-size: 16px;
+    margin: 6px 0px;
+}
+
+.weatherInfo span {
+    font-weight: 700;
+    margin-left: 4px;
+    color: slateblue;
+}
